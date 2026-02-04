@@ -1,0 +1,10 @@
+{
+  "name": "brand-management",
+  "description": "This skill transforms Claude into a brand management specialist. It helps develop and maintain a strong brand identity, manage online reputation, and create high-quality, personalized content. Use this skill when you need to build, manage, or protect a brand's reputation and image.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "brand-management"]
+}

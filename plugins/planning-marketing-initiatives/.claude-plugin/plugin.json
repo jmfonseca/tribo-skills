@@ -1,0 +1,10 @@
+{
+  "name": "planning-marketing-initiatives",
+  "description": "Builds a data-driven, adaptive marketing campaign blueprint tailored to specific business goals. Use when creating a comprehensive marketing strategy for a product, service, or business objective.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "planning-marketing-initiatives"]
+}

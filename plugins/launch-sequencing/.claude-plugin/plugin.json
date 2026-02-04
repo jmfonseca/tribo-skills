@@ -1,0 +1,10 @@
+{
+  "name": "launch-sequencing",
+  "description": "This skill orchestrates Product Launch Formula (PLF) style launches, guiding users through pre-launch, launch, and post-launch sequences. It helps script content, manage cart open/close, recruit JVs, implement scarcity, and debrief for future improvement. Use for planning and executing a full product launch.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "launch-sequencing"]
+}

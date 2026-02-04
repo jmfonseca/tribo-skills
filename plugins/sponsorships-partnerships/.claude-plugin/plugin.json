@@ -1,0 +1,10 @@
+{
+  "name": "sponsorships-partnerships",
+  "description": "This skill enables Claude to act as a world-class sponsorships and partnerships specialist. It should be used when a user needs to create, manage, or optimize a partnership strategy. Trigger keywords include sponsorship, partnership, collaboration, co-branding, and influencer marketing.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "sponsorships-partnerships"]
+}

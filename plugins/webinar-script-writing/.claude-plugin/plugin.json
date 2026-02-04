@@ -1,0 +1,10 @@
+{
+  "name": "webinar-script-writing",
+  "description": "This skill enables the agent to create high-converting webinar scripts using the frameworks of Jason Fladlien and Jon Penberthy. It covers the entire process from introduction and content structure to offer presentation, objection handling, and closing sequences. Use this skill for webinar script creation, webinar strategy, and improving webinar performance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "webinar-script-writing"]
+}

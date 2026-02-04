@@ -1,0 +1,10 @@
+{
+  "name": "big-idea-development",
+  "description": "\"This skill develops a powerful marketing message using Todd Brown's E5 methodology. It guides users through market sophistication analysis, unique mechanism discovery, and creating a compelling big idea for their campaign. Use when you need to craft a unique and persuasive marketing angle. Keywords: big idea, marketing message, E5 methodology, unique mechanism, value proposition.\"",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "big-idea-development"]
+}

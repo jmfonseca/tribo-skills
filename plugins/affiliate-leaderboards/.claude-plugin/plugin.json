@@ -1,0 +1,10 @@
+{
+  "name": "affiliate-leaderboards",
+  "description": "This skill helps create and manage affiliate leaderboards to gamify affiliate promotions, increase competition, and drive sales. Use it for designing leaderboards, structuring prizes, and motivating affiliates.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "affiliate-leaderboards"]
+}

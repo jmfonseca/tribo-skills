@@ -1,0 +1,10 @@
+{
+  "name": "affiliate-motivation-and-training",
+  "description": "This skill equips the agent to motivate and train affiliate partners effectively. It should be used for tasks like creating weekly updates, sharing success stories, developing training modules, writing personal outreach scripts, planning reactivation campaigns, and designing performance coaching and incentive programs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "affiliate-motivation-and-training"]
+}

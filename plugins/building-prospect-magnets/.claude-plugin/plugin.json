@@ -1,0 +1,10 @@
+{
+  "name": "building-prospect-magnets",
+  "description": "Constructs a high-performance lead generation system to attract and capture ideal customers. Use this skill to design and build a complete lead generation system, including a lead magnet, validation, and a nurturing sequence.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "building-prospect-magnets"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "copywriting",
+  "description": "This skill transforms Claude into a world-class direct response copywriter following Todd Brown's Big Idea and Unique Mechanism framework, Gary Halbert's lead types, and Frank Kern's behavioral copy methodology. Use it for sales pages, VSLs, emails, ads, and landing pages. Covers the 6 Types of Leads, fascination formulas, proof stacking, offer creation, and the psychology of persuasion.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "copywriting"]
+}

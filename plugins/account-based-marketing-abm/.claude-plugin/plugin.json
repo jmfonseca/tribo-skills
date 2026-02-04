@@ -1,0 +1,10 @@
+{
+  "name": "account-based-marketing-abm",
+  "description": "This skill enables Claude to act as an Account-Based Marketing (ABM) specialist. Use it to develop and execute ABM strategies, including creating Ideal Customer Profiles (ICPs), building tiered account lists, aligning sales and marketing, and personalizing content. Trigger with keywords like 'ABM', 'account-based marketing', 'ICP', or 'target accounts'.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "account-based-marketing-abm"]
+}

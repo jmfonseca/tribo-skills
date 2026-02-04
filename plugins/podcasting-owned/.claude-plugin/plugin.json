@@ -1,0 +1,10 @@
+{
+  "name": "podcasting-owned",
+  "description": "This skill transforms Claude into a podcasting strategist for owned media. Use it to create, grow, and monetize a podcast. Triggers: podcasting, podcast strategy, start a podcast, grow my podcast.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "podcasting-owned"]
+}

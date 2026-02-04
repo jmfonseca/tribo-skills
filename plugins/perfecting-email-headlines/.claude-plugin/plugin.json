@@ -1,0 +1,10 @@
+{
+  "name": "perfecting-email-headlines",
+  "description": "Analyzes and crafts compelling email subject lines to drive higher engagement. Use this skill to optimize email subject lines for a specific product, service, or message, and to improve open rates by tailoring the message to a target audience.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "perfecting-email-headlines"]
+}

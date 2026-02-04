@@ -1,0 +1,10 @@
+{
+  "name": "ai-automation-marketing",
+  "description": "A skill for leveraging AI and automation in marketing. Use this skill to brainstorm content, automate workflows, optimize SEO, and manage advertising campaigns. Trigger keywords: AI marketing, marketing automation, content creation, SEO optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "ai-automation-marketing"]
+}

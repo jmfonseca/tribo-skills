@@ -1,0 +1,10 @@
+{
+  "name": "website-management",
+  "description": "Manages all aspects of a website to ensure it is secure, up-to-date, and performing optimally. Use this skill for tasks related to website security, performance, SEO, and maintenance. Trigger keywords: website management, website security, website performance, SEO.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "website-management"]
+}

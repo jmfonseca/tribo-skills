@@ -1,0 +1,10 @@
+{
+  "name": "measuring-social-performance",
+  "description": "Translates social media efforts into measurable business growth and actionable insights. Use this skill when you need to analyze social media performance, connect social activities to tangible business outcomes like leads and revenue, and develop a data-driven strategy for optimizing your social media ROI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "measuring-social-performance"]
+}

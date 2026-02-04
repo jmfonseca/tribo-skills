@@ -1,0 +1,10 @@
+{
+  "name": "organic-search-features",
+  "description": "This agent helps optimize for organic search features like featured snippets, rich snippets, and local packs to improve search engine visibility. Use this skill to improve your website's performance in Google search results.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "organic-search-features"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "programmatic-advertising",
+  "description": "A skill for creating and managing programmatic advertising campaigns. Use when a user wants to improve ad efficiency, targeting, and ROI through automated ad buying. Trigger keywords: programmatic, ad buying, DSP, SSP, ad exchange.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "programmatic-advertising"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "story-driven-email-campaigns",
+  "description": "This skill creates story-driven email campaigns using Andre Chaperon's Soap Opera Sequence. Use it to write compelling email sequences that build relationships and drive sales through narrative.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "story-driven-email-campaigns"]
+}

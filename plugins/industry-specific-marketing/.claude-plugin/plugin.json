@@ -1,0 +1,10 @@
+{
+  "name": "industry-specific-marketing",
+  "description": "This skill enables Claude to act as an industry-specific marketing specialist. Use it to develop marketing strategies tailored to a particular industry, create niche content, and identify high-leverage marketing channels. Trigger with keywords like 'industry marketing', 'niche marketing', or 'specialized marketing plan'.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "industry-specific-marketing"]
+}

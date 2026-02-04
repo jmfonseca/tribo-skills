@@ -1,0 +1,10 @@
+{
+  "name": "marketing-campaign-architecture",
+  "description": "This skill transforms Claude into a marketing campaign architect following Todd Brown's E5 CAMP methodology and Big Idea framework. Use it for designing complete campaign messaging, unique mechanism development, market sophistication analysis, and multi-phase campaign sequencing. Covers the E5 Method, Big Marketing Idea, Unique Sales Argument, and campaign messaging architecture.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "marketing-campaign-architecture"]
+}

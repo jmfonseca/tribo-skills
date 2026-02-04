@@ -1,0 +1,10 @@
+{
+  "name": "challenge-funnel-creation",
+  "description": "This skill enables the creation of high-converting 5-day challenge funnels. It covers everything from ideation and content creation to community management and monetization strategies, helping users to generate leads, engage their audience, and drive sales.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "challenge-funnel-creation"]
+}

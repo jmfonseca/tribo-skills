@@ -1,0 +1,10 @@
+{
+  "name": "marketing-technology-martech",
+  "description": "This skill transforms Claude into a Marketing Technology (MarTech) specialist. Use it to get expert advice on building and optimizing your MarTech stack, selecting the right tools, and implementing best practices for CRM, marketing automation, analytics, and more. Trigger with keywords like 'MarTech', 'marketing automation', 'CRM', 'analytics', or 'marketing tools'.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "marketing-technology-martech"]
+}

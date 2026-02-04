@@ -1,0 +1,10 @@
+{
+  "name": "compliance-legal",
+  "description": "A skill for ensuring digital marketing practices are compliant with legal and ethical standards. Use when you need to review marketing materials, data handling practices, or advertising campaigns for legal risks.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "compliance-legal"]
+}

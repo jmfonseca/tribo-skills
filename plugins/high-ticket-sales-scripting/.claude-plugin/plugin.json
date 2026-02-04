@@ -1,0 +1,10 @@
+{
+  "name": "high-ticket-sales-scripting",
+  "description": "This skill provides a comprehensive framework for creating and executing high-ticket sales scripts, from initial application to closing the deal. Use it to structure application funnels, discovery calls, and enrollment conversations for premium products or services.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "high-ticket-sales-scripting"]
+}

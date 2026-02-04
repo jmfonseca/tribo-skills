@@ -1,0 +1,10 @@
+{
+  "name": "creative-design",
+  "description": "This skill enables Claude to act as a creative and design specialist for digital marketing. Use it to develop strong brand identities, create high-quality visuals, run A/B tests, and tell compelling stories. Trigger this skill for tasks involving brand strategy, visual content creation, and creative campaign optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "creative-design"]
+}

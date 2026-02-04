@@ -1,0 +1,10 @@
+{
+  "name": "paid-media-creative-skills",
+  "description": "This skill transforms Claude into a paid media creative specialist, guiding users in developing, testing, and optimizing ad creative for paid media campaigns. Use this skill for tasks involving ad creative, A/B testing, audience targeting, video ads, mobile-first design, and user-generated content.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "paid-media-creative-skills"]
+}

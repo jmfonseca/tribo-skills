@@ -1,0 +1,156 @@
+name: Validate Plugins
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating marketplace.json..."
+          node -e "JSON.parse(require('fs').readFileSync('.claude-plugin/marketplace.json'))"
+          echo "marketplace.json is valid!"
+
+          echo ""
+          echo "Validating individual plugin.json files..."
+          for f in plugins/*/.claude-plugin/plugin.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f'))"
+            echo "  ✓ $f"
+          done
+          echo "All plugin.json files are valid!"
+
+      - name: Check plugin structure
+        run: |
+          echo "Checking plugin directory structure..."
+
+          errors=0
+
+          for plugin_dir in plugins/*/; do
+            plugin_name=$(basename "$plugin_dir")
+
+            # Check for .claude-plugin/plugin.json
+            if [ ! -f "$plugin_dir.claude-plugin/plugin.json" ]; then
+              echo "  ✗ $plugin_name: Missing .claude-plugin/plugin.json"
+              errors=$((errors + 1))
+            else
+              echo "  ✓ $plugin_name: Has plugin.json"
+            fi
+
+            # Check for skills/*/SKILL.md
+            skill_md="$plugin_dir/skills/$plugin_name/SKILL.md"
+            if [ ! -f "$skill_md" ]; then
+              echo "  ✗ $plugin_name: Missing skills/$plugin_name/SKILL.md"
+              errors=$((errors + 1))
+            else
+              echo "  ✓ $plugin_name: Has SKILL.md"
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo ""
+            echo "Found $errors errors!"
+            exit 1
+          fi
+
+          echo ""
+          echo "All plugins have correct structure!"
+
+      - name: Validate SKILL.md frontmatter
+        run: |
+          echo "Checking SKILL.md frontmatter..."
+
+          errors=0
+
+          for skill_md in plugins/*/skills/*/SKILL.md; do
+            # Check for frontmatter
+            if ! head -1 "$skill_md" | grep -q "^---$"; then
+              echo "  ✗ $skill_md: Missing frontmatter"
+              errors=$((errors + 1))
+              continue
+            fi
+
+            # Check for name field
+            if ! sed -n '/^---$/,/^---$/p' "$skill_md" | grep -q "^name:"; then
+              echo "  ✗ $skill_md: Missing 'name' in frontmatter"
+              errors=$((errors + 1))
+            fi
+
+            # Check for description field
+            if ! sed -n '/^---$/,/^---$/p' "$skill_md" | grep -q "^description:"; then
+              echo "  ✗ $skill_md: Missing 'description' in frontmatter"
+              errors=$((errors + 1))
+            fi
+
+            if [ $errors -eq 0 ]; then
+              plugin_name=$(basename $(dirname $(dirname "$skill_md")))
+              echo "  ✓ $plugin_name: Valid frontmatter"
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo ""
+            echo "Found $errors frontmatter errors!"
+            exit 1
+          fi
+
+          echo ""
+          echo "All SKILL.md files have valid frontmatter!"
+
+      - name: Count plugins
+        run: |
+          plugin_count=$(ls -d plugins/*/ | wc -l)
+          marketplace_count=$(node -e "
+            const data = JSON.parse(require('fs').readFileSync('.claude-plugin/marketplace.json'));
+            console.log(data.plugins.length);
+          ")
+
+          echo "Plugin directories: $plugin_count"
+          echo "Marketplace entries: $marketplace_count"
+
+          if [ "$plugin_count" -ne "$marketplace_count" ]; then
+            echo ""
+            echo "⚠️ Warning: Plugin count mismatch!"
+            echo "   Directories: $plugin_count"
+            echo "   Marketplace: $marketplace_count"
+            exit 1
+          fi
+
+          echo ""
+          echo "✓ All $plugin_count plugins are registered in marketplace.json"
+
+      - name: Check for broken README links
+        run: |
+          echo "Checking README.md internal links..."
+
+          errors=0
+
+          # Extract all internal links from README
+          grep -oE '\[.*\]\(plugins/[^)]+\)' README.md | while read -r link; do
+            path=$(echo "$link" | grep -oE 'plugins/[^)]+')
+            if [ ! -d "$path" ]; then
+              echo "  ✗ Broken link: $path"
+              errors=$((errors + 1))
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo ""
+            echo "Found $errors broken links!"
+            exit 1
+          fi
+
+          echo "✓ All README links are valid!"

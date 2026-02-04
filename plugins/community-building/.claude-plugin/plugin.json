@@ -1,0 +1,10 @@
+{
+  "name": "community-building",
+  "description": "This skill helps you build and manage a thriving online community. Use it when you need to define your community's purpose, create engaging content, foster authentic communication, and empower brand advocates.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "community-building"]
+}

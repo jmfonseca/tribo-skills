@@ -1,0 +1,10 @@
+{
+  "name": "behavioral-email-sequencing",
+  "description": "This skill implements Frank Kern's Behavioral Dynamic Response to create powerful, automated email sequences that adapt to user behavior. It enables agents to identify triggers, map branching logic, score lead behavior, and deploy re-engagement campaigns to guide prospects toward conversion with personalized, story-driven content.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "behavioral-email-sequencing"]
+}

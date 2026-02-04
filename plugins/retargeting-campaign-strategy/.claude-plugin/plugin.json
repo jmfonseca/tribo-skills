@@ -1,0 +1,10 @@
+{
+  "name": "retargeting-campaign-strategy",
+  "description": "This skill creates a comprehensive retargeting campaign strategy based on the teachings of Jon Penberthy and Frank Kern. It covers audience segmentation, sequential ad creative, frequency capping, platform tactics, exclusion audiences, and creative fatigue prevention.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "retargeting-campaign-strategy"]
+}

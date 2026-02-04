@@ -1,0 +1,10 @@
+{
+  "name": "media-planning-and-buying",
+  "description": "\"This skill transforms Claude into a media planning and buying specialist. Use it to create data-driven, cross-channel media plans that maximize ROI. Triggers: media plan, buying strategy, ad campaign, ROI.\"",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "media-planning-and-buying"]
+}

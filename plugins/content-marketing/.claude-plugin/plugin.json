@@ -1,0 +1,10 @@
+{
+  "name": "content-marketing",
+  "description": "This skill helps users create and execute a content marketing strategy. It should be used when a user wants to attract and retain an audience by creating and distributing valuable, relevant, and consistent content. Trigger keywords include content marketing, content strategy, blog posts, articles, and audience engagement.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Mendes"
+  },
+  "license": "MIT",
+  "keywords": ["marketing", "content-marketing"]
+}
